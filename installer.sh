@@ -39,8 +39,10 @@ chmod $SCRIPT_PERMISSIONS .$USR_BIN_DIR/$STEAMOS_POLKIT_HELPERS_DIR/steamos-set-
 
 # Ensure the session file has the correct permissions set
 #
-# 'steam.desktop'
-chmod $SESSION_FILE_PERMISSIONS .$WAYLAND_SESSIONS_DIR/steam.desktop
+chmod $SESSION_FILE_PERMISSIONS .$WAYLAND_SESSIONS_DIR/steam-dp-1-120.desktop
+chmod $SESSION_FILE_PERMISSIONS .$WAYLAND_SESSIONS_DIR/steam-dp-1-60.desktop
+chmod $SESSION_FILE_PERMISSIONS .$WAYLAND_SESSIONS_DIR/steam-hdmi-1-120.desktop
+chmod $SESSION_FILE_PERMISSIONS .$WAYLAND_SESSIONS_DIR/steam-hdmi-1-60.desktop
 
 
 # Create a 'steamos-polkit-helpers' folder under '/usr/bin'
@@ -80,6 +82,11 @@ sudo cp .$USR_BIN_DIR/$STEAMOS_POLKIT_HELPERS_DIR/steamos-set-timezone \
 
 # Copy the following scripts to the /usr/share folder
 #
-# 'steam.desktop'
-sudo cp .$WAYLAND_SESSIONS_DIR/steam.desktop \
-    $WAYLAND_SESSIONS_DIR/steam.desktop
+sudo cp .$WAYLAND_SESSIONS_DIR/steam-dp-1-120.desktop \
+    $WAYLAND_SESSIONS_DIR/
+sudo cp .$WAYLAND_SESSIONS_DIR/steam-dp-1-60.desktop \
+    $WAYLAND_SESSIONS_DIR/
+sudo cp .$WAYLAND_SESSIONS_DIR/steam-hdmi-1-120.desktop \
+    $WAYLAND_SESSIONS_DIR/
+sudo cp .$WAYLAND_SESSIONS_DIR/steam-hdmi-1-60.desktop \
+    $WAYLAND_SESSIONS_DIR/

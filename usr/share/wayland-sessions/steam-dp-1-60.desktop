@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Steam Gamescope (DP-1 60hz)
+Comment=Run Steam directly in Gamescope
+Exec=gamescope-session -r 60 -O DP-1
+Type=Application
+DesktopNames=gamescope

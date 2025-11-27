@@ -38,8 +38,10 @@ sudo rm $USR_BIN_DIR/$STEAMOS_POLKIT_HELPERS_DIR/steamos-set-timezone
 
 # Remove the following scripts to the /usr/share folder
 #
-# 'steam.desktop'
-sudo rm $WAYLAND_SESSIONS_DIR/steam.desktop 
+sudo rm $WAYLAND_SESSIONS_DIR/steam-dp-1-120.desktop 
+sudo rm $WAYLAND_SESSIONS_DIR/steam-dp-1-60.desktop 
+sudo rm $WAYLAND_SESSIONS_DIR/steam-hdmi-1-120.desktop 
+sudo rm $WAYLAND_SESSIONS_DIR/steam-hdmi-1-60.desktop 
 
 
 # Remove the 'steamos-polkit-helpers' folder under '/usr/bin'

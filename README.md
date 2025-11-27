@@ -1,3 +1,14 @@
+# Fork Information
+
+This fork changes the following:
+
+- Enable HDR
+- Enable VRR
+- `gamescope-session` passes all arguments to the `gamescope` command
+- Multiple desktop files are included for common output names (`DP-1`, and `HDMI-1`) at 60/120hz
+
+The upstream README follows:
+
 # Steam using Gamescope guide (aka DIY SteamOS mode)
 
 A guide for setting up your favourite Linux distribution to launch Steam into SteamOS mode from the display manager (login screen) using Gamescope.

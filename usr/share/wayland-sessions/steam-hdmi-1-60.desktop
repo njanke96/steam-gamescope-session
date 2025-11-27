@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Steam (Gamescope)
+Name=Steam Gamescope (HDMI-1 60hz)
 Comment=Run Steam directly in Gamescope
-Exec=gamescope-session
+Exec=gamescope-session -r 60 -O HDMI-1
 Type=Application
 DesktopNames=gamescope
