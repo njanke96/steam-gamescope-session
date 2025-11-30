@@ -1,4 +1,8 @@
 #!/bin/bash
 
+pipewire &
+
 gamescope -e --adaptive-sync --hdr-enabled --hdr-itm-enabled "$@" \
   -- steam -steamdeck -steamos3
+
+pgrep pipewire | xargs kill
